@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-# Hello
-{% for post in site.posts %}
-  {{ post.title }}
-{% endfor %}
+We're working on getting this website started. Please visit our
+[Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/) in
+the meantime.
