@@ -29,3 +29,4 @@ sass:
 markdown: kramdown
 exclude:
   - README.md
+  - deploy.yaml
