@@ -28,6 +28,4 @@ sass:
   sass_dir: _sass
 markdown: kramdown
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - README.md
