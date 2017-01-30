@@ -1,0 +1,3 @@
+default:
+  root: "./_site"
+  bucket: "www.fcc-greenville.com"
