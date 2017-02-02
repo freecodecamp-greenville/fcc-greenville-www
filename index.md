@@ -4,8 +4,8 @@ layout: default
 # freeCodeCamp Greenville
 
 *freeCodeCamp Greenville* is a group that meets once a week in Greenville South
-Carolina to work on freeCodeCamp projects together. Students of any skill level
-are welcome to attend.
+Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
+together. Students of any skill level are welcome to attend.
 
 We meet every Thursday at 7 PM at
 [NEXT on Main](http://www.greenvillenext.com/next-space-locations/next-main/).
