@@ -12,12 +12,8 @@ in the Bank of America building in downtown Greenville.
 
 ## Hack Nights
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Evenings devoted to working on FCC projects and challenges. Campers use this opportunity to receive assistance from other campers and mentors.
+
 
 ## Presentation Nights
 
@@ -27,12 +23,7 @@ core concepts. After the presentation will be the normal hack night activities.
 
 ## Parking
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-culpa qui officia deserunt mollit anim id est laborum.
+Parking for event is located at the Aloft parking garage, on Richardson street, adjacent to NEXT on Main building. Drive to the 5th floor and be sure to ring a door bell for entrance to the building.
 
 We're working on getting this website started. Please visit our
 [Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/) in
