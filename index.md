@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-# freeCodeCamp Greenville
-
 *freeCodeCamp Greenville* is a group that meets once a week in Greenville South
 Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
 together. Students of any skill level are welcome to attend.
