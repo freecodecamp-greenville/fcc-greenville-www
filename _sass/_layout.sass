@@ -4,15 +4,21 @@ body
   margin: 0
 
 header
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
   height: $headerHeight
   display: flex
   align-items: center
   justify-content: center
   font-size: 2rem
-
+  @media (max-width: 480px)
+    font-size: 1.6rem
 
 .container
-  margin-top: $headerHeight
   width: 80%
   max-width: 40em
   margin: 0 auto
+  margin-top: $headerHeight
+  overflow-y: hidden
