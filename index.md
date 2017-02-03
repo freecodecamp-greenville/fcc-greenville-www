@@ -26,6 +26,5 @@ Parking for the events is located at the Aloft parking garage, on Richardson
 street, adjacent to NEXT on Main building. Drive to the 5th floor and be sure to
 ring a door bell for entrance to the building.
 
-We're working on getting this website started. Please visit our
-[Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/) in
-the meantime.
+Please visit our
+[Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/).
