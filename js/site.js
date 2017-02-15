@@ -15,3 +15,22 @@ doorbellButton.addEventListener('click', function() {
     action: 'ring'
   }))
 })
+
+function getDoorbellStatus() {
+  var xhr = new XMLHttpRequest()
+  xhr.addEventListener('load', function(e) {
+    var response = JSON.parse(e.target.response)
+    if (response.hasOwnProperty('status')) {
+      if (response.status === 'active') {
+        doorbellButton.style.display = 'block'
+      }
+    }
+  })
+  xhr.open('POST', 'http://doorbell.fcc-greenville.com/')
+  xhr.setRequestHeader('Content-Type', 'application/json')
+  xhr.send(JSON.stringify({
+    action: 'status'
+  }))
+}
+
+getDoorbellStatus()
