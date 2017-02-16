@@ -5,12 +5,13 @@ layout: default
 Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
 together. Students of any skill level are welcome to attend.
 
-<button id="doorbell">Click here and we'll open the door for you.</button>
-<p id="doorbell-message"></p>
-
 We meet every Thursday at 7 PM at
 [NEXT on Main](http://www.greenvillenext.com/next-space-locations/next-main/)
 in the Bank of America building in downtown Greenville.
+
+<div><button id="doorbell">Ring the Doorbell</button></div>
+
+<p id="doorbell-message"></p>
 
 ## Hack Nights
 
