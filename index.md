@@ -27,7 +27,7 @@ core concepts. After the presentation will be the normal hack night activities.
 ## Parking
 
 Parking for the events is located at the Aloft parking garage, on Richardson
-street, adjacent to NEXT on Main building. Drive to the 5th floor and be sure to
+Street, adjacent to NEXT on Main building. Drive to the 5th floor and be sure to
 ring a door bell for entrance to the building.
 
 Please visit our
