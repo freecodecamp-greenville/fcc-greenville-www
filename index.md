@@ -33,5 +33,16 @@ garage. In the Aloft garage the entrance is on the 5th level. In the Richardson
 Street garage the entrance is on the 3rd level. During the event there will be a
 virtual doorbell on this page so that we can let you in.
 
+## Help Make This Website Better
+
+One purpose of this website is to be a project that we can collaborate on. We
+want to give our fellow FCC campers real world experience in collaborative
+coding and distributed version control using [Git](https://git-scm.com/) and
+[GitHub](https://github.com/).
+
+If you have ideas or suggestions for this site, [open an issue or a pull
+request](https://github.com/freecodecamp-greenville/fcc-greenville-www). Don't
+know what that means? Come to one of our meetups and we'll get you started!
+
 Please visit our
 [Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/).
