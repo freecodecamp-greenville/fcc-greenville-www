@@ -26,9 +26,12 @@ core concepts. After the presentation will be the normal hack night activities.
 
 ## Parking
 
-Parking for the events is located at the Aloft parking garage, on Richardson
-Street, adjacent to NEXT on Main building. Drive to the 5th floor and be sure to
-ring a door bell for entrance to the building.
+For events at Next on Main, you can park in the Aloft parking garage or the
+Richardson Street garage. Both garages are on Richardson Street, on either side
+of the Bank of America building. There is an entrance to Next on Main in each
+garage. In the Aloft garage the entrance is on the 5th level. In the Richardson
+Street garage the entrance is on the 3rd level. During the event there will be a
+virtual doorbell on this page so that we can let you in.
 
 Please visit our
 [Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/).
