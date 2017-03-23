@@ -9,7 +9,7 @@ doorbellButton.addEventListener('click', function() {
       doorbellMessage.innerText = response.message
     }
   })
-  xhr.open('POST', 'http://doorbell.fcc-greenville.com/')
+  xhr.open('POST', 'https://doorbell.fcc-greenville.com/')
   xhr.setRequestHeader('Content-Type', 'application/json')
   xhr.send(JSON.stringify({
     action: 'ring'
@@ -26,7 +26,7 @@ function getDoorbellStatus() {
       }
     }
   })
-  xhr.open('POST', 'http://doorbell.fcc-greenville.com/')
+  xhr.open('POST', 'https://doorbell.fcc-greenville.com/')
   xhr.setRequestHeader('Content-Type', 'application/json')
   xhr.send(JSON.stringify({
     action: 'status'
