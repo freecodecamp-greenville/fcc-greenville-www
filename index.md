@@ -6,10 +6,10 @@ Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
 together. Students of any skill level are welcome to attend.
 
 We meet every Thursday at 7 PM at [NEXT on
-Main](http://www.greenvillenext.com/next-space-locations/next-main/) in the Bank
-of America building in downtown Greenville. **Please use one of the side
-entrances inside the adjacent parking garages. The main entrance to the building
-is locked after 6 PM.**
+Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
+3<sup>rd</sup> floor of the Bank of America building in downtown Greenville.
+**Please use one of the side entrances inside the adjacent parking garages. The
+main entrance to the building is locked after 6 PM.**
 
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
