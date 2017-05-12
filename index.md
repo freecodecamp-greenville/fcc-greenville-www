@@ -5,6 +5,8 @@ layout: default
 Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
 together. Students of any skill level are welcome to attend.
 
+[**Join us at the OpenSC Hackathon this Saturday.**](https://nvite.com/OpenSCHack/c0f0)
+
 We meet every Thursday at 7 PM at [NEXT on
 Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 3<sup>rd</sup> floor of the Bank of America building in downtown Greenville.
