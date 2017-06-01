@@ -44,7 +44,7 @@ coding and distributed version control using [Git](https://git-scm.com/) and
 
 If you have ideas or suggestions for this site, [open an issue or a pull
 request](https://github.com/freecodecamp-greenville/fcc-greenville-www). Don't
-know what that means? Come to one of our meetups and we'll get you started!
+know what that means? Come to one of our meet-ups and we'll get you started!
 
 Please visit our
 [Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/).
