@@ -35,6 +35,11 @@ garage. In the Aloft garage the entrance is on the 5th level. In the Richardson
 Street garage the entrance is on the 3rd level. During the event there will be a
 virtual doorbell on this page so that we can let you in.
 
+## Join us on Slack
+
+We have a channel `#freecodecampgvl` on the HackGreenville Slack team. [Go here
+to sign up](https://hackgreenville.typeform.com/to/sBMjCF).
+
 ## Help Make This Website Better
 
 One purpose of this website is to be a project that we can collaborate on. We
