@@ -35,10 +35,13 @@ garage. In the Aloft garage the entrance is on the 5th level. In the Richardson
 Street garage the entrance is on the 3rd level. During the event there will be a
 virtual doorbell on this page so that we can let you in.
 
-## Join us on Slack
+## Join us on Slack and Facebook
 
 We have a channel `#freecodecampgvl` on the HackGreenville Slack team. [Go here
 to sign up](https://hackgreenville.typeform.com/to/sBMjCF).
+
+Join us on
+[Facebook](https://www.facebook.com/groups/free.code.camp.Greenville/).
 
 ## Help Make This Website Better
 
@@ -50,6 +53,3 @@ coding and distributed version control using [Git](https://git-scm.com/) and
 If you have ideas or suggestions for this site, [open an issue or a pull
 request](https://github.com/freecodecamp-greenville/fcc-greenville-www). Don't
 know what that means? Come to one of our meet-ups and we'll get you started!
-
-Please visit our
-[Facebook group](https://www.facebook.com/groups/free.code.camp.Greenville/).
