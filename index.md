@@ -11,11 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-{: .attention}
-**The August 10<sup>th</sup> meet-up will be at 6:30 PM at the [Hughes Main
-Library](https://www.greenvillelibrary.org/locations/main).**
-This will be a joint meet-up with [SC Codes](https://sccodes.org/).
-
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
 <p id="doorbell-message"></p>
