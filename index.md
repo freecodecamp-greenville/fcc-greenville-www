@@ -38,7 +38,7 @@ virtual doorbell on this page so that we can let you in.
 ## Join us on Slack and Facebook
 
 We have a channel `#freecodecampgvl` on the HackGreenville Slack team. [Go here
-to sign up](https://hackgreenville.typeform.com/to/sBMjCF).
+to sign up](http://hackgreenville.com/).
 
 Join us on
 [Facebook](https://www.facebook.com/groups/free.code.camp.Greenville/).
