@@ -15,7 +15,8 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 
 <p id="doorbell-message"></p>
 
-Let us know that you're coming on [Meetup](https://www.meetup.com/en-AU/SC-Codes-Greenville-Community/)!
+Let us know that you're coming on
+[Meetup](https://www.meetup.com/SC-Codes-Greenville-Community/)!
 
 ## Hack Nights
 
