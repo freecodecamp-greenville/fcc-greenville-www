@@ -11,8 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-There will be no meetup on December 28<sup>th</sup>. Happy Holidays!
-
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
 <p id="doorbell-message"></p>
