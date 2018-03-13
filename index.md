@@ -12,8 +12,12 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
 {: .attention}
-There will not be a meet-up on March 8. Instead, we encourage you to attend
-[GVL.js](https://www.meetup.com/GVL-js/).
+On Thursday, March 22, we will be joining [Carolina Code
+School](https://carolinacodeschool.org/) for a
+[Codewars](https://www.codewars.com/) event. There will be an opportunity to
+complete code challenges online, as well as a chance to complete challenges in
+small teams. The event will run from 6&ndash;8 PM. Carolina Code School is
+located at 411 University Ridge, Suite 235.
 
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
