@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: freecodecamp-greenville/fcc-greenville-www
+  branch: netlify
+media_folder: "images/uploads"
+collections:
+  -
+    name: "pages"
+    label: "Pages"
+    files:
+      -
+        name: "home"
+        label: "Home"
+        file: "index.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Body", name: "body", widget: "markdown"}
