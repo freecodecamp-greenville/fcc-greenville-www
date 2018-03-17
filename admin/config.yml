@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: freecodecamp-greenville/fcc-greenville-www
-  branch: netlify
+  branch: master
 media_folder: "images/uploads"
 collections:
   -
