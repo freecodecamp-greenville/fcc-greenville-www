@@ -2,16 +2,15 @@
 
 ## Official website of the freeCodeCamp meetup group in Greenville SC.
 
-## Build
+## Development
 
 To build the site only [Jekyll](https://jekyllrb.com/) is needed. To run a local
-development server, run `jekyll serve` in the root of this repo. To build the
-site for deployment, run `jekyll build`.
+development server, run `jekyll serve` in the root of this repo.
 
 ## Deploy
 
-Deployment is handled by [Stout](http://stout.is/). Configuration for stout is
-in the `deploy.yaml` file. Deploy to staging with the command  `stout deploy
---env dev`. This deploys the site to the `next.fcc-greenville.com` S3 bucket.
-Deploy to production with the command `stout deploy --env production`. This
-deploys the site to the `www.fcc-greenville.com` S3 bucket.
+This site is deployed on [Netlify](https://www.netlify.com/). The production
+website at <https://www.fcc-greenville.com/> is deployed from the master branch
+on GitHub at <https://github.com/freecodecamp-greenville/fcc-greenville-www>.
+[Netlify CMS](https://www.netlifycms.org/) is configured to push to master on
+GitHub. The CMS is served at `/admin`.
