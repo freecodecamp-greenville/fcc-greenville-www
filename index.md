@@ -11,14 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-{: .attention}
-On Thursday, March 22, we will be joining [Carolina Code
-School](https://carolinacodeschool.org/) for a
-[Codewars](https://www.codewars.com/) event. There will be an opportunity to
-complete code challenges online, as well as a chance to complete challenges in
-small teams. The event will run from 6&ndash;8 PM. Pizza and soda will be
-provided. Carolina Code School is located at 411 University Ridge, Suite 235.
-
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
 <p id="doorbell-message"></p>
