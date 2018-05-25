@@ -1,0 +1,8 @@
+---
+layout: default
+title: Resources
+---
+{% for page in site.data.resources %}
+<a href="{{ page.url }}">{{ page.title }}</a>
+<div class="description">{{ page.description }}</div>
+{% endfor %}
