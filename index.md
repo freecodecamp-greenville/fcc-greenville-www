@@ -11,12 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-{: .attention}
-Come early on June 14th to eat pizza and talk about the launch of the new 
-freeCodeCamp curriculum! Starts at 6 PM.
-If you're coming early,
-[RSVP here](https://www.meetup.com/Hack-Greenville/events/251314087/).
-
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
 <p id="doorbell-message"></p>
