@@ -14,3 +14,7 @@
     things like HTML document traversal and manipulation, event handling,
     animation, and Ajax much simpler with an easy-to-use API that works across a
     multitude of browsers.
+-
+  title: React
+  url: https://reactjs.org/docs/
+  description: A JavaScript library for building user interfaces.
