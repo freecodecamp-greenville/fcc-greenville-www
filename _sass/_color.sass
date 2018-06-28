@@ -1,6 +1,7 @@
 $cFccGreen: #006400
 $cFccOrange: #FF9C2A
 $cBlack: #2a2a2a
+$cLink: darken(cornflowerblue, 30%)
 
 body
   color: $cBlack
@@ -10,7 +11,7 @@ header
   color: white
 
 a
-  color: cornflowerblue
+  color: $cLink
 
 a:visited
-  color: adjust-hue(cornflowerblue, 50deg)
+  color: adjust-hue($cLink, 50deg)
