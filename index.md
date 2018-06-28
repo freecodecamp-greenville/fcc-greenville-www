@@ -14,7 +14,7 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 {: .attention}
 On July 12, there will not be a freeCodeCamp Greenville meet-up. Instead, join
 us at GVL.js! Please
-[RSVP for GVL.js on meetup](https://www.meetup.com/GVL-js/events/251887047/).
+[RSVP for GVL.js on Meetup](https://www.meetup.com/GVL-js/events/251887047/).
 
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
