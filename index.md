@@ -21,7 +21,7 @@ us at GVL.js! Please
 <p id="doorbell-message"></p>
 
 Let us know that you're coming on
-[Meetup](https://www.meetup.com/SC-Codes-Greenville-Community/)!
+[Meetup](https://www.meetup.com/Hack-Greenville/)!
 
 ## Hack Nights
 
