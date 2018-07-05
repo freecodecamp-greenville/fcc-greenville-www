@@ -16,9 +16,28 @@ header
   @media (max-width: 480px)
     font-size: 1.6rem
 
+nav
+  margin: $headerHeight 0 0 0
+  padding: 0
+
+  li
+    list-style-type: none
+
+  a
+    display: block
+    box-sizing: border-box
+    padding: .3em
+
+  ul
+    margin: 0 auto
+    padding: 0
+    display: flex
+    justify-content: space-around
+    width: 80%
+    max-width: 40em
+
 .container
   width: 80%
   max-width: 40em
   margin: 0 auto
-  margin-top: $headerHeight
   overflow-y: hidden

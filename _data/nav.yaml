@@ -1,0 +1,9 @@
+-
+  name: Home
+  uri: /
+-
+  name: Resources
+  uri: /resources
+- 
+  name: Guides
+  uri: /guides
