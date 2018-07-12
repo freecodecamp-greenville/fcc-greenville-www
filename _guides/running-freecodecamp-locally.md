@@ -20,6 +20,12 @@ freeCodeCamp website.
 
 Data for all of the challenges that make up freeCodeCamp.
 
+## Prerequisites
+
+You'll need a few things set up locally. Check out the
+[Prerequisites section in the Contributing doc](https://github.com/tortxof/freeCodeCamp/blob/staging/CONTRIBUTING.md#prerequisites)
+.
+
 ## Fork and clone the repos.
 
 You'll need copies of the following 3 repos. If you will be contributing back to
