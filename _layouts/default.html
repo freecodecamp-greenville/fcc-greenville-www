@@ -12,14 +12,14 @@
 <body>
   <header class="main-header">
     <div class="title"><a href="/">freeCodeCamp Greenville</a></div>
+    <nav>
+      <ul>
+        {% for link in site.data.nav %}
+          <li><a href="{{ link.uri }}">{{ link.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      {% for link in site.data.nav %}
-        <li><a href="{{ link.uri }}">{{ link.name }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
   <div class="container">
     {{ content }}
   </div>
