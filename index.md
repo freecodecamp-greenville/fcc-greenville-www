@@ -11,11 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-{: .attention}
-On July 12, there will not be a freeCodeCamp Greenville meet-up. Instead, join
-us at GVL.js! Please
-[RSVP for GVL.js on Meetup](https://www.meetup.com/GVL-js/events/251887047/).
-
 <div><button id="doorbell">Ring the Doorbell</button></div>
 
 <p id="doorbell-message"></p>
