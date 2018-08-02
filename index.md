@@ -15,6 +15,30 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 
 <p id="doorbell-message"></p>
 
+## Next Meetup
+
+<div class="next-meetup">
+{% for meetup in site.data.upcoming limit:1 %}
+<div class="meetup">
+<strong>{{ meetup.name }}</strong>
+<br>
+{{ meetup.date | date: "%A, %B %e, %Y" }}
+</div>
+{% endfor %}
+</div>
+
+<a href="#" id="show-future-meetups">More...</a>
+
+<div class="future-meetups">
+{% for meetup in site.data.upcoming offset:1 %}
+<div class="meetup">
+<strong>{{ meetup.name }}</strong>
+<br>
+{{ meetup.date | date: "%A, %B %e, %Y" }}
+</div>
+{% endfor %}
+</div>
+
 Let us know that you're coming on
 [Meetup](https://www.meetup.com/Hack-Greenville/)!
 
@@ -56,3 +80,11 @@ coding and distributed version control using [Git](https://git-scm.com/) and
 If you have ideas or suggestions for this site, [open an issue or a pull
 request](https://github.com/freecodecamp-greenville/fcc-greenville-www). Don't
 know what that means? Come to one of our meet-ups and we'll get you started!
+
+<script>
+document.getElementById('show-future-meetups').addEventListener('click', function(e) {
+    console.log(e);
+    document.querySelector('.future-meetups').style.display = 'block';
+    e.preventDefault();
+});
+</script>
