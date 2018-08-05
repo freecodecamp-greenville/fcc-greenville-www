@@ -36,3 +36,27 @@
     name: OpenWorks
     url: https://joinopenworks.com/
   date: 2018-10-18
+-
+  name: Hack Night
+  location:
+    name: OpenWorks
+    url: https://joinopenworks.com/
+  date: 2018-11-01
+-
+  name: Hack Night
+  location:
+    name: OpenWorks
+    url: https://joinopenworks.com/
+  date: 2018-11-15
+-
+  name: Hack Night
+  location:
+    name: OpenWorks
+    url: https://joinopenworks.com/
+  date: 2018-12-06
+-
+  name: Hack Night
+  location:
+    name: OpenWorks
+    url: https://joinopenworks.com/
+  date: 2018-12-20
