@@ -75,8 +75,9 @@ know what that means? Come to one of our meet-ups and we'll get you started!
 
 <script>
 document.getElementById('show-future-meetups').addEventListener('click', function(e) {
-    console.log(e);
     document.querySelector('.future-meetups').style.display = 'block';
+    var elShowMeetups = document.getElementById('show-future-meetups');
+    elShowMeetups.parentElement.removeChild(elShowMeetups);
     e.preventDefault();
 });
 </script>
