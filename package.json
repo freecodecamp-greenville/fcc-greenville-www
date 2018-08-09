@@ -4,9 +4,9 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "prestart": "npm run build",
+    "prestart": "webpack --run-dev",
     "start": "jekyll serve",
-    "prebuild": "webpack --mode=production",
+    "prebuild": "NODE_ENV=production webpack --run-prod",
     "build": "jekyll build"
   },
   "devDependencies": {

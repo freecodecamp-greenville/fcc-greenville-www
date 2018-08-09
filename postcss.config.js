@@ -1,9 +1,11 @@
-module.exports = {
+module.exports = ({ env }) => ({
   plugins: [
     require('tailwindcss')('./tailwind.js'),
-    require('@fullhuman/postcss-purgecss')({
-      content: ['./src/**/*.html', './src/**/*.md']
-    }),
-    require('cssnano')({ preset: 'default' })
+    env === 'production'
+      ? require('@fullhuman/postcss-purgecss')({
+          content: ['./src/**/*.html', './src/**/*.md']
+        })
+      : false,
+    env === 'production' ? require('cssnano')({ preset: 'default' }) : false
   ]
-};
+});
