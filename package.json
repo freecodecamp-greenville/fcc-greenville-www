@@ -4,9 +4,16 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "build-css": "tailwind build _css/main.css -c tailwind.js -o css/main.css"
+    "build": "webpack --mode=production"
   },
   "devDependencies": {
-    "tailwindcss": "^0.6.4"
+    "@fullhuman/postcss-purgecss": "^1.0.1",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.5",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.22.1",
+    "tailwindcss": "^0.6.4",
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
   }
 }

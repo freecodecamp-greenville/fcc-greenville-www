@@ -68,12 +68,3 @@ coding and distributed version control using [Git](https://git-scm.com/) and
 If you have ideas or suggestions for this site, [open an issue or a pull
 request](https://github.com/freecodecamp-greenville/fcc-greenville-www). Don't
 know what that means? Come to one of our meet-ups and we'll get you started!
-
-<script>
-document.getElementById('show-future-meetups').addEventListener('click', function(e) {
-    document.querySelector('.future-meetups').style.display = 'block';
-    var elShowMeetups = document.getElementById('show-future-meetups');
-    elShowMeetups.parentElement.removeChild(elShowMeetups);
-    e.preventDefault();
-});
-</script>
