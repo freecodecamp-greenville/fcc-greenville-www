@@ -11,21 +11,17 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-<div><button id="doorbell">Ring the Doorbell</button></div>
-
-<p id="doorbell-message"></p>
+{% include doorbell-button.html %}
 
 ## Next Meetup
 
-<div class="next-meetup">
 {% for meetup in site.data.upcoming limit:1 %}
 {% include meetup-event.html %}
 {% endfor %}
-</div>
 
 <a href="#" id="show-future-meetups">Full Calendar...</a>
 
-<div class="future-meetups">
+<div class="future-meetups hidden">
 {% for meetup in site.data.upcoming offset:1 %}
 {% include meetup-event.html %}
 {% endfor %}

@@ -1,0 +1,26 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-black font-sans;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+pre {
+    @apply my-4;
+}
+
+h1 {
+    @apply text-center;
+}

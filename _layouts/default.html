@@ -6,21 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#006400">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/main.css">
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 </head>
 <body>
-  <header class="main-header">
-    <div class="title"><a href="/">freeCodeCamp Greenville</a></div>
-    <nav>
-      <ul>
+  <header class="bg-green">
+    <div class="text-center text-3xl p-2">
+      <a class="text-white no-underline" href="/">freeCodeCamp Greenville</a>
+    </div>
+    <nav class="bg-green-dark">
+      <ul class="max-w-md mx-auto flex justify-around list-reset">
         {% for link in site.data.nav %}
-          <li><a href="{{ link.uri }}">{{ link.name }}</a></li>
+          <li><a class="no-underline text-white block px-2 py-1" href="{{ link.uri }}">{{ link.name }}</a></li>
         {% endfor %}
       </ul>
     </nav>
   </header>
-  <div class="container">
+  <div class="max-w-md mx-auto px-4">
     {{ content }}
   </div>
   <script src="/js/site.js" charset="utf-8"></script>

@@ -1,0 +1,12 @@
+{
+  "name": "fcc-greenville-www",
+  "repository": "git@github.com:freecodecamp-greenville/fcc-greenville-www.git",
+  "author": "Daniel Jones <tortxof@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "build-css": "tailwind build _css/main.css -c tailwind.js -o css/main.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^0.6.4"
+  }
+}
