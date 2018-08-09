@@ -4,7 +4,10 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "build": "webpack --mode=production"
+    "prestart": "npm run build",
+    "start": "jekyll serve",
+    "prebuild": "webpack --mode=production",
+    "build": "jekyll build"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.0.1",
