@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.site-header a, .site-header a:visited {
+    @apply text-white
+}
+
 body {
     @apply text-black font-sans;
+}
+
+a {
+    @apply text-link;
+}
+
+a:visited {
+    @apply text-visited;
 }
 
 blockquote,
