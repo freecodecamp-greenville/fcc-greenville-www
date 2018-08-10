@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .site-header a, .site-header a:visited {
-    @apply text-white
+    @apply text-white;
 }
 
 .attention {
-    @apply bg-orange-light rounded-lg px-4 py-2
+    @apply bg-orange-light rounded-lg px-4 py-2;
 }
 
 body {
