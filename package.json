@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "webpack --run-dev",
     "start": "jekyll serve",
-    "prebuild": "NODE_ENV=production webpack --run-prod",
+    "prebuild": "jekyll build; NODE_ENV=production webpack --run-prod",
     "build": "JEKYLL_ENV=production jekyll build"
   },
   "devDependencies": {
