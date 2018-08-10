@@ -1,5 +1,7 @@
 dist
-src/bundle.js
+src/app.js
+src/styles.js
+src/styles.css
 .sass-cache
 .jekyll-metadata
 Gemfile.lock

@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#006400">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  {% if jekyll.environment == "production" %}
+  <link rel="stylesheet" href="/styles.css">
+  {% endif %}
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 </head>
 <body>
@@ -24,6 +27,9 @@
   <div class="max-w-md mx-auto px-4">
     {{ content }}
   </div>
-  <script src="/bundle.js" charset="utf-8"></script>
+  {% if jekyll.environment != "production" %}
+  <script src="/styles.js" charset="utf-8"></script>
+  {% endif %}
+  <script src="/app.js" charset="utf-8"></script>
 </body>
 </html>
