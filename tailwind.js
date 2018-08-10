@@ -51,6 +51,7 @@ let colors = {
   green: '#006400',
   'green-dark': '#004b00',
   orange: '#FF9C2A',
+  'orange-light': '#ffce95',
 
   link: '#1347a5',
   visited: '#5813a5'

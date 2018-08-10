@@ -6,6 +6,10 @@
     @apply text-white
 }
 
+.attention {
+    @apply bg-orange-light rounded-lg px-4 py-2
+}
+
 body {
     @apply text-black font-sans;
 }
