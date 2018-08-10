@@ -4,7 +4,7 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "jekyll-serve": "jekyll serve",
+    "jekyll-serve": "jekyll serve --livereload",
     "webpack-watch": "webpack --watch --run-dev",
     "prestart": "webpack --run-dev",
     "start": "npm-run-all --parallel webpack-watch jekyll-serve",
