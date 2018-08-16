@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.0.1",
+    "autoprefixer": "^9.1.1",
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

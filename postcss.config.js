@@ -13,6 +13,7 @@ module.exports = ({ env }) => ({
           extractors: [{ extractor: TailwindExtractor, extensions: ['html'] }]
         })
       : false,
+    require('autoprefixer'),
     env === 'production' ? require('cssnano')({ preset: 'default' }) : false
   ]
 });
