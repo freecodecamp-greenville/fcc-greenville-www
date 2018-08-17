@@ -6,14 +6,17 @@ document.getElementById('show-future-meetups').addEventListener('click', e => {
   e.preventDefault();
 });
 
-var doorbellButton = document.getElementById('doorbell');
-var doorbellMessage = document.getElementById('doorbell-message');
+const doorbellButton = document.getElementById('doorbell');
+const doorbellMessage = document.getElementById('doorbell-message');
 
-doorbellButton.addEventListener('click', function() {
+doorbellButton.addEventListener('click', () => {
   axios
     .post('https://doorbell.fcc-greenville.com/', { action: 'ring' })
     .then(response => {
-      if (response.status === 200 && response.data.hasOwnProperty('message')) {
+      if (
+        response.status === 200 &&
+        {}.hasOwnProperty.call(response.data, 'message')
+      ) {
         doorbellMessage.innerText = response.data.message;
       }
     });
@@ -25,7 +28,7 @@ function getDoorbellStatus() {
     .then(response => {
       if (
         response.status === 200 &&
-        response.data.hasOwnProperty('status') &&
+        {}.hasOwnProperty.call(response.data, 'status') &&
         response.data.status === 'active'
       ) {
         doorbellButton.style.display = 'block';
