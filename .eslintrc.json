@@ -1,10 +1,8 @@
-{ 
-    "extends": ["airbnb-base", "plugin:prettier/recommended"],
-    "env": {
-        "browser": true
-    },
-    "rules": {
-        "prettier/prettier": ["error", {"singleQuote": true}],
-        "max-len": ["warn", {"code": 80}]
-    }
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "env": { "browser": true },
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "max-len": ["warn", { "code": 80 }]
+  }
 }
