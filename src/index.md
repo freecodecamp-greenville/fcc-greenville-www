@@ -15,14 +15,14 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 
 ## Next Meetup
 
-{% for meetup in site.data.upcoming limit:1 %}
+{% for meetup in site.data.meetups limit:1 %}
 {% include meetup-event.html %}
 {% endfor %}
 
 <a href="#" id="show-future-meetups">Full Calendar...</a>
 
 <div class="future-meetups hidden">
-{% for meetup in site.data.upcoming offset:1 %}
+{% for meetup in site.data.meetups offset:1 %}
 {% include meetup-event.html %}
 {% endfor %}
 </div>
