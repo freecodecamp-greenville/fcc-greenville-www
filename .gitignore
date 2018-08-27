@@ -2,6 +2,7 @@ dist
 src/app.js
 src/styles.js
 src/styles.css
+src/_data/meetup_com.json
 .sass-cache
 .jekyll-metadata
 Gemfile.lock

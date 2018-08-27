@@ -4,11 +4,12 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
+    "get-meetup-com-data": "node meetup-com-pull.js",
     "jekyll-serve": "jekyll serve --livereload",
     "webpack-watch": "webpack --watch --run-dev",
-    "prestart": "webpack --run-dev",
+    "prestart": "npm run get-meetup-com-data; webpack --run-dev",
     "start": "npm-run-all --parallel webpack-watch jekyll-serve",
-    "prebuild": "jekyll build; NODE_ENV=production webpack --run-prod",
+    "prebuild": "npm run get-meetup-com-data; jekyll build; NODE_ENV=production webpack --run-prod",
     "build": "JEKYLL_ENV=production jekyll build"
   },
   "devDependencies": {
