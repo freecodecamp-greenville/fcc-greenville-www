@@ -13,5 +13,5 @@ collections:
         label: "Home"
         file: "index.md"
         fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/default.njk"}
           - {label: "Body", name: "body", widget: "markdown"}
