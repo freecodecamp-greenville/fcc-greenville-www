@@ -1,8 +1,10 @@
 ---
-layout: default
+tags:
+  - guides
+layout: layouts/default.njk
 title: Running freeCodeCamp Locally
 ---
-# {{ page.title }}
+# {{ title }}
 
 This guide will show you how to run the full-stack freeCodeCamp site on your
 local computer. This involves three different repos that together make up the

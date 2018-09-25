@@ -4,15 +4,15 @@
   "author": "Daniel Jones <tortxof@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "get-meetup-com-data": "node meetup-com-pull.js",
-    "jekyll-serve": "jekyll serve --livereload",
+    "eleventy-serve": "eleventy --serve",
     "webpack-watch": "webpack --watch --run-dev",
-    "prestart": "npm run get-meetup-com-data; webpack --run-dev",
-    "start": "npm-run-all --parallel webpack-watch jekyll-serve",
-    "prebuild": "npm run get-meetup-com-data; jekyll build; NODE_ENV=production webpack --run-prod",
-    "build": "JEKYLL_ENV=production jekyll build"
+    "prestart": "webpack --run-dev",
+    "start": "npm-run-all --parallel webpack-watch eleventy-serve",
+    "prebuild": "eleventy; NODE_ENV=production webpack --run-prod",
+    "build": "ELEVENTY_ENV=production eleventy"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^0.5.3",
     "@fullhuman/postcss-purgecss": "^1.0.1",
     "autoprefixer": "^9.1.1",
     "axios": "^0.18.0",

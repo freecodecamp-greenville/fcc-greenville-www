@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layouts/default.njk
 ---
 *freeCodeCamp Greenville* is a group that meets twice a month in Greenville
 South Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
@@ -15,14 +15,14 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 
 ## Next Meetup
 
-{% for meetup in site.data.meetup_com limit:1 %}
+{% for meetup in meetup_com limit:1 %}
 {% include meetup-event.html %}
 {% endfor %}
 
 <a href="#" id="show-future-meetups">Full Calendar...</a>
 
 <div class="future-meetups hidden">
-{% for meetup in site.data.meetup_com offset:1 %}
+{% for meetup in meetup_com offset:1 %}
 {% include meetup-event.html %}
 {% endfor %}
 </div>

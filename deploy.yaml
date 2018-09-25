@@ -1,8 +1,0 @@
-default:
-  root: "./_site"
-
-production:
-  bucket: "www.fcc-greenville.com"
-
-dev:
-  bucket: "next.fcc-greenville.com"

@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: layouts/default.njk
 title: Guides
 permalink: /guides/index.html
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{ title }}</h1>
 
-{% for guide in site.guides %}
-  <a href="{{ guide.url }}">{{ guide.title }}</a>
+{% for guide in collections.guides %}
+  <a href="{{ guide.url }}">{{ guide.data.title }}</a>
 {% endfor %}

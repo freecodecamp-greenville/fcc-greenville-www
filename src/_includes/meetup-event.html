@@ -1,17 +1,17 @@
 <div class="my-4">
-    {% if meetup.link %}
+    {%- if meetup.link -%}
         <a href="{{ meetup.link }}"><strong>{{ meetup.name }}</strong></a>
-    {% else %}
+    {%- else -%}
         <strong>{{ meetup.name }}</strong>
-    {% endif %}
-    {% if meetup.venue %}
-        -
-        {% if meetup.venue.lat %}
+    {%- endif -%}
+    {%- if meetup.venue -%}
+        &nbsp;-&nbsp;
+        {%- if meetup.venue.lat -%}
             <a href=" https://www.google.com/maps/search/?api=1&query={{ meetup.venue.lat }},{{ meetup.venue.lon }}">{{ meetup.venue.name }}</a>
-        {% else %}
+        {%- else -%}
             {{ meetup.venue.name }}
-        {% endif %}
-    {% endif %}
+        {%- endif -%}
+    {%- endif -%}
     <br>
     {{ meetup.local_date | date: "%A, %B %e, %Y" }}
 </div>
