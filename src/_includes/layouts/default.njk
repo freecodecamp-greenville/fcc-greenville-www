@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color" content="#006400">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  {% if site.env == "production" %}
+  {% if site.env == "production" -%}
   <link rel="stylesheet" href="/styles.css">
-  {% endif %}
+  {% endif -%}
   <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
 </head>
 <body>
@@ -18,18 +18,18 @@
     </div>
     <nav class="bg-green-dark">
       <ul class="max-w-md mx-auto flex justify-around list-reset">
-        {% for link in nav %}
-          <li><a class="no-underline text-white block px-2 py-1" href="{{ link.uri }}">{{ link.name }}</a></li>
-        {% endfor %}
+      {% for link in nav %}
+        <li><a class="no-underline text-white block px-2 py-1" href="{{ link.uri }}">{{ link.name }}</a></li>
+      {% endfor %}
       </ul>
     </nav>
   </header>
   <div class="max-w-md mx-auto px-4">
     {{ content | safe }}
   </div>
-  {% if site.env != "production" %}
+  {% if site.env != "production" -%}
   <script src="/styles.js" charset="utf-8"></script>
-  {% endif %}
+  {% endif -%}
   <script src="/app.js" charset="utf-8"></script>
 </body>
 </html>
