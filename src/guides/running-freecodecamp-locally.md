@@ -1,6 +1,4 @@
 ---
-tags:
-  - guides
 layout: layouts/default.njk
 title: Running freeCodeCamp Locally
 ---
