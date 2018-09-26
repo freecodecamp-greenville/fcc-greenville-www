@@ -10,6 +10,10 @@
     @apply bg-orange-light rounded-lg px-4 py-2;
 }
 
+.attention p {
+    @apply my-0
+}
+
 body {
     @apply text-black font-sans;
 }
