@@ -9,7 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('timeToDate', time =>
     DateTime.fromJSDate(new Date(time))
       .setZone('America/New_York')
-      .toFormat('EEEE, MMMM d, h:mm a')
+      .toFormat('EEEE, MMMM d, t')
   );
 
   return {
