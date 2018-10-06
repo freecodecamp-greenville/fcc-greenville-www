@@ -11,14 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-<div class="attention">
-
-[GVL.js](https://www.meetup.com/GVL-js/) is having a [meetup on October 4](https://www.meetup.com/GVL-js/events/254964312/).
-If you're in the JavaScript section of freeCodeCamp, you may want to check out
-this meetup.
-
-</div>
-
 {% include doorbell-button.html %}
 
 ## Next Meetup
