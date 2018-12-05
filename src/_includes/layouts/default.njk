@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#006400">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   {% if site.env == "production" -%}
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css">
   {% endif -%}
   <title>{% if title %}{{ title }} - {% endif %}{{ site.title }}</title>
 </head>
@@ -28,8 +28,8 @@
     {{ content | safe }}
   </div>
   {% if site.env != "production" -%}
-  <script src="/styles.js" charset="utf-8"></script>
+  <script src="/assets/styles.js" charset="utf-8"></script>
   {% endif -%}
-  <script src="/app.js" charset="utf-8"></script>
+  <script src="/assets/app.js" charset="utf-8"></script>
 </body>
 </html>

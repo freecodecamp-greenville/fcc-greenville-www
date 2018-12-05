@@ -1,7 +1,5 @@
 dist
-src/app.js
-src/styles.js
-src/styles.css
+src/assets
 src/_data/meetup_com.json
 .sass-cache
 .jekyll-metadata
