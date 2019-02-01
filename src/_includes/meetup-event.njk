@@ -7,7 +7,7 @@
     {%- if meetup.venue -%}
         &nbsp;-&nbsp;
         {%- if meetup.venue.lat -%}
-            <a href=" https://www.google.com/maps/search/?api=1&query={{ meetup.venue.lat }},{{ meetup.venue.lon }}">{{ meetup.venue.name }}</a>
+            <a href="https://www.google.com/maps/search/?api=1&query={{ meetup.venue.lat }},{{ meetup.venue.lon }}">{{ meetup.venue.name }}</a>
         {%- else -%}
             {{ meetup.venue.name }}
         {%- endif -%}
