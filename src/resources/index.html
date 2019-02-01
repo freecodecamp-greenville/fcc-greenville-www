@@ -2,13 +2,14 @@
 layout: layouts/default.njk
 title: Resources
 ---
+
 <h1>{{ title }}</h1>
 
 {% for resource in resources %}
-  <div class="my-4">
-    <div class="font-bold">
-      <a href="{{ resource.url }}">{{ resource.title }}</a>
-    </div>
-    <div>{{ resource.description }}</div>
+<div class="my-4">
+  <div class="font-bold">
+    <a href="{{ resource.url }}">{{ resource.title }}</a>
   </div>
+  <div>{{ resource.description }}</div>
+</div>
 {% endfor %}
