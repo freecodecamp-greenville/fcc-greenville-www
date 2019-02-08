@@ -11,13 +11,6 @@ Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 **Please use one of the side entrances inside the adjacent parking garages. The
 main entrance to the building is locked after 6:30&nbsp;PM.**
 
-<div class="attention my-4">
-
-Join us Thursday, January 24 at
-[GVL.js](https://www.meetup.com/GVL-js/events/257748069/)!
-
-</div>
-
 <div class="my-4">
 {% include doorbell-button.html %}
 </div>
