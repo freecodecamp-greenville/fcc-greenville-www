@@ -1,5 +1,15 @@
 [
   {
+    "title": "CodePen",
+    "url": "https://codepen.io/",
+    "description": "CodePen is a social development environment for front-end designers and developers."
+  },
+  {
+    "title": "Repl.it",
+    "url": "https://repl.it/",
+    "description": "Stop wasting time setting up a development environment. Repl.it gives you an instant IDE to learn, build, collaborate, and host all in one place."
+  },
+  {
     "title": "MDN Web Docs",
     "url": "https://developer.mozilla.org/",
     "description": "The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation for Mozilla products, such as Firefox Developer Tools."
