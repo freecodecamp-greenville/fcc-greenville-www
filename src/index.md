@@ -15,6 +15,8 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 {% include doorbell-button.html %}
 </div>
 
+<div class="meetup-info">
+
 ## Next Meetup
 
 {% for meetup in meetup_com limit:1 %}
@@ -31,11 +33,27 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 
 Let us know that you're coming on
 [Meetup](https://www.meetup.com/Hack-Greenville/)!
+</div>
+
+
+
+<div class="info-container">
+
+<div>
+
+<i class="fa fa-code fa-2x"></i>
 
 ## Hack Nights
 
 Evenings devoted to working on FCC projects and challenges. Campers use this
 opportunity to receive assistance from other campers and mentors.
+
+</div>
+
+
+<div>
+
+<i class="fa fa-desktop fa-2x"></i>
 
 ## Presentation Nights
 
@@ -43,14 +61,20 @@ We will occasionally have a guest speaker give a presentation. Topics covered
 include job hunting, walk-through of freeCodeCamp challenges, and JavaScript
 core concepts. After the presentation will be the normal hack night activities.
 
+</div>
+
+<div>
+
+<i class="fa fa-car fa-2x" ></i>
+
 ## Parking
 
-For events at Next on Main, you can park in the Aloft parking garage or the
-Richardson Street garage. Both garages are on Richardson Street, on either side
-of the Bank of America building. There is an entrance to Next on Main in each
-garage. In the Aloft garage the entrance is on the 5th level. In the Richardson
-Street garage the entrance is on the 3rd level. During the event there will be a
-virtual doorbell on this page so that we can let you in.
+Either park in the Richardson st garage on the 3rd floor, or on the 5th level of the aloft parking garage.  During the event, there will be a virtual doorbell on this page so that we can let you in.
+
+</div>
+
+</div>
+
 
 ## Join us on Slack and Facebook
 

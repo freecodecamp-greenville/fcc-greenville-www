@@ -44,3 +44,18 @@ pre {
 h1 {
     @apply text-center;
 }
+
+h2 {
+    text-align: center;
+}
+
+.info-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    text-align: center;
+}
+
+.meetup-info {
+    text-align: center;
+}
