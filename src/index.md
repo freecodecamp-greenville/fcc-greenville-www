@@ -15,6 +15,13 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 {% include doorbell-button.html %}
 </div>
 
+<div class="attention my-4">
+
+Join us Thursday, May 9 at
+[GVL.js](https://www.meetup.com/GVL-js/events/260831497/)
+
+</div>
+
 ## Next Meetup
 
 {% for meetup in meetup_com limit:1 %}
