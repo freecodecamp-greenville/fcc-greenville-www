@@ -1,11 +1,11 @@
 ---
 layout: layouts/default.njk
 ---
-*freeCodeCamp Greenville* is a group that meets twice a month in Greenville
+*freeCodeCamp Greenville* is a group that meets once a month in Greenville
 South Carolina to work on [freeCodeCamp](https://www.freecodecamp.com/) projects
 together. Students of any skill level are welcome to attend.
 
-We meet on the first and third Thursdays of every month at 7 PM at [NEXT on
+We meet on the first Thursday of every month at 7 PM at [NEXT on
 Main](http://www.greenvillenext.com/next-space-locations/next-main/) on the
 3<sup>rd</sup> floor of the Bank of America building in downtown Greenville.
 **Please use one of the side entrances inside the adjacent parking garages. The
