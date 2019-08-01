@@ -23,5 +23,15 @@
     "title": "React",
     "url": "https://reactjs.org/docs/",
     "description": "A JavaScript library for building user interfaces."
+  },
+  {
+    "title": "HTML Cheat Sheet",
+    "url": "https://makeawebsitehub.com/the-html-5-mega-cheat-sheet/",
+    "description": "A handy HTML reference guide."
+  },
+  {
+    "title": "CSS Cheat Sheet",
+    "url": "https://makeawebsitehub.com/css3-mega-cheat-sheet/",
+    "description": "A handy CSS reference guide."
   }
 ]
