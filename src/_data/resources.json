@@ -33,5 +33,10 @@
     "title": "CSS Cheat Sheet",
     "url": "https://makeawebsitehub.com/css3-mega-cheat-sheet/",
     "description": "A handy CSS reference guide."
+  },
+  {
+    "title": "Netlify",
+    "url": "https://www.netlify.com/",
+    "description": "Netlify is everything you need to build fast, modern websites: continuous deployment, serverless functions, and so much more."
   }
 ]
