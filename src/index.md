@@ -15,6 +15,13 @@ main entrance to the building is locked after 6:30&nbsp;PM.**
 {% include doorbell-button.html %}
 </div>
 
+<div class="attention my-4">
+
+Our November 7 meetup has been cancelled so that we can attend the GVL.js meetup.
+Please RSVP and join us at [GVL.js](https://www.meetup.com/GVL-js/events/264912309/).
+
+</div>
+
 ## Next Meetup
 
 {% for meetup in meetup_com limit:1 %}
