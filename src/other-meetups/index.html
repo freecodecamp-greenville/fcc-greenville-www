@@ -1,0 +1,15 @@
+---
+layout: layouts/default.njk
+title: Other Meetups
+---
+
+<h1>{{ title }}</h1>
+
+{% for meetup in other_meetups %}
+<div class="my-4">
+  <div class="font-bold text-xl my-2">
+    <a href="{{ meetup.url }}">{{ meetup.name }}</a>
+  </div>
+  <div>{{ meetup.description }}</div>
+</div>
+{% endfor %}

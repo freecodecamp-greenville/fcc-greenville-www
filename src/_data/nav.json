@@ -6,5 +6,9 @@
   {
     "name": "Guides",
     "uri": "/guides"
+  },
+  {
+    "name": "Other Meetups",
+    "uri": "/other-meetups"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "GVL.js",
+    "url": "https://www.meetup.com/GVL-js/",
+    "description": "Are you interested in or using the latest JavaScript frameworks like React.js, Vue.js, and WhateverComesNext.js? This meetup is for you! Gather with like-minded JavaScript developers to nerd out about JS and the surrounding ecosystem of libraries & patterns."
+  },
+  {
+    "name": "Greenville Python Meetup",
+    "url": "https://www.meetup.com/Greenville-Python-Meetup/",
+    "description": "We meet monthly to discus topics related to programming with Python. Web dev, IoT, DevOps, and other applications of Python included. We like to hear about what members have learned recently and we usually have a key note from a member that covers an interesting topic: business problem solved, how to use a language feature or library, or awareness of a helpful Python project."
+  },
+  {
+    "name": "UpstatePHP",
+    "url": "https://www.meetup.com/Hack-Greenville/",
+    "description": "We'll get together and chat about code and life. Sometimes there will be food (we'll do our best and we'll let you know when). Most of the time there will be a speaker giving a presentation, other times we'll have multiple smaller talks or show & tells."
+  }
+]
