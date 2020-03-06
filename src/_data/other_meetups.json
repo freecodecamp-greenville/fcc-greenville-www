@@ -1,5 +1,10 @@
 [
   {
+    "name": "Hack Greenville",
+    "url": "https://hackgreenville.com/",
+    "description": "Hack Greenville is a community of \"hackers\" located in and around Greenville, SC. Our community exists to foster personal growth for community members through sharing and promoting local tech opportunities."
+  },
+  {
     "name": "GVL.js",
     "url": "https://www.meetup.com/GVL-js/",
     "description": "Are you interested in or using the latest JavaScript frameworks like React.js, Vue.js, and WhateverComesNext.js? This meetup is for you! Gather with like-minded JavaScript developers to nerd out about JS and the surrounding ecosystem of libraries & patterns."
