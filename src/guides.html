@@ -6,5 +6,5 @@ permalink: /guides/index.html
 <h1>{{ title }}</h1>
 
 {% for guide in collections.guides %}
-  <a href="{{ guide.url }}">{{ guide.data.title }}</a>
+  <a class="font-bold text-xl my-2" href="{{ guide.url }}">{{ guide.data.title }}</a>
 {% endfor %}
